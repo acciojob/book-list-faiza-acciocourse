@@ -1,1 +1,69 @@
 /*  your css code here. If applicable */
+h1 {
+	text-align: center;
+	font-weight: 10;
+}
+
+#bookheading {
+	color: #1e5bf1;
+}
+
+label {
+	display: block;
+}
+
+input {
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#addbook {
+	background-color: #1e5bf1;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 4px;
+}
+
+#booksTable {
+    width: 100%;
+    border-collapse: collapse;
+    color: #333;
+}
+
+#booksTable thead {
+    border-bottom: 2px solid #333;
+}
+
+#booksTable th {
+    text-align: left;
+    padding: 8px 5px 6px;
+    font-weight: bold;
+    color: #222;
+}
+
+#booksTable tbody tr {
+    background-color: #f1f2f3;
+    border-bottom: 1px solid #ddd;
+}
+
+#booksTable td {
+    padding: 7px 5px;
+    height: 14px;
+}
+
+.delete-btn {
+    background-color: #ed4050;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 3px 6px;
+    font-size: 10px;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.delete-btn:hover {
+    background-color: #d52d3d;
+}
